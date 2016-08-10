@@ -1,13 +1,19 @@
 
-     [id="footer"] .wrapper {
+    [id="footer"] {
 
-         border-top: 7px solid black;
-         padding: 30px 0;
+        margin-top: 200px;
 
-     }
+    }
+
+    [id="footer"] .wrapper {
+
+        border-top: 7px solid black;
+        padding: 30px 0;
+
+    }
 
 
-     [id="footer"] ul {
+    [id="footer"] ul {
 
          list-style: none;
          float: left;

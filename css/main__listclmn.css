@@ -24,9 +24,11 @@
     }
 
 
+
+
     .grid-item {
         float: left;
-        padding: 30px;
+        padding: 48px;
         margin-bottom: 10px;
     }
 
@@ -38,23 +40,24 @@
 
         opacity: 1;
 
-        transition: all 0.2s ease-out;
-        -moz-transition: all 0.2s ease-out;
-        -ms-transition: all 0.2s ease-out;
+        transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
     }
 
     #grid img:hover {
-        opacity: 0.7;background-color: #000000;
-
+        opacity: 0.7;
+        background-color: #000000;
 
         -webkit-filter: grayscale(80%);
         filter: grayscale(80%);
-        transition: all 0.2s ease-out;
-        -moz-transition: all 0.2s ease-out;
-        -ms-transition: all 0.2s ease-out;
+
+        transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
     }
 
     #grid aside {
         overflow: hidden;
-        height: 400px;
+        height: 280px;
     }
